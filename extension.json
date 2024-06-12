@@ -1,0 +1,17 @@
+{
+  "name": "Gardtec Utilities",
+  "apiVersion": "1.0.0",
+  "author": "Alexander Smirnov",
+  "version": "0.0.1",
+  "description": "Utilities to reverse engineer Gardtect 4-wire bus",
+  "extensions": {
+    "Gardtect Keypad": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "gardtec.Keypad"
+    },
+    "Gardtect Display": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "gardtec.Display"
+    }
+  }
+}
